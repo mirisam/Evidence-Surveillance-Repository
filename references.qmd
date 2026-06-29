@@ -10,36 +10,55 @@ format:
 This table is generated from `data/references.csv`.
 
 ```{ojs}
-references = FileAttachment("data/references.csv").csv({typed: true})
+//| echo: false
+
+references = FileAttachment("data/references.csv").csv({typed: false})
 ```
 
 ## Filter the evidence
 
 ```{ojs}
+//| echo: false
+
+uniqueValues = (data, column) => [
+  "All",
+  ...Array.from(new Set(data.map(d => d[column]).filter(d => d !== ""))).sort()
+]
+```
+
+```{ojs}
+//| echo: false
+
 viewof outbreak_filter = Inputs.select(
-  ["All", ...new Set(references.map(d => d.Outbreak))],
+  uniqueValues(references, "Outbreak"),
   {label: "Outbreak"}
 )
 ```
 
 ```{ojs}
+//| echo: false
+
 viewof study_design_filter = Inputs.select(
-  ["All", ...new Set(references.map(d => d["Study Design"]))],
-  {label: "Study Design"}
+  uniqueValues(references, "Study_Design"),
+  {label: "Study design"}
 )
 ```
 
 ```{ojs}
+//| echo: false
+
 viewof year_filter = Inputs.select(
-  ["All", ...new Set(references.map(d => d.Year))],
+  uniqueValues(references, "Year"),
   {label: "Year"}
 )
 ```
 
 ```{ojs}
+//| echo: false
+
 filtered_references = references.filter(d =>
   (outbreak_filter === "All" || d.Outbreak === outbreak_filter) &&
-  (study_design_filter === "All" || d["Study Design"] === study_design_filter) &&
+  (study_design_filter === "All" || d.Study_Design === study_design_filter) &&
   (year_filter === "All" || d.Year === year_filter)
 )
 ```
@@ -47,8 +66,10 @@ filtered_references = references.filter(d =>
 ## Browse references
 
 ```{ojs}
+//| echo: false
+
 Inputs.table(filtered_references, {
-  columns: ["Title", "Authors", "Year", "Outbreak", "Study Design", "Journal"],
+  columns: ["Title", "Authors", "Year", "Outbreak", "Study_Design", "Journal"],
   sort: "Year",
   reverse: true
 })
