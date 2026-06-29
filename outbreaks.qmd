@@ -17,12 +17,9 @@ Evidence surveillance table for mpox literature.
 
 [View evidence table](outbreaks/mpox/)
 
-:::{.info-card}
+::: {.info-card}
 ### Hantavirus
 
-Evidence surveillance table for Hantavirus literature.
+Evidence surveillance table for hantavirus literature.
 
 [View evidence table](outbreaks/hantavirus/)
-:::
-
-:::
