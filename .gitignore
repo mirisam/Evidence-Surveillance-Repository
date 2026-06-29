@@ -1,2 +1,12 @@
-/.quarto/
-**/*.quarto_ipynb
+# Quarto generated files
+_site/
+.quarto/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
