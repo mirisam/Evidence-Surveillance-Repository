@@ -16,6 +16,7 @@ Each outbreak has its own folder and CSV file. Columns may differ between outbre
 Evidence surveillance table for mpox literature.
 
 [View evidence table](outbreaks/mpox/)
+
 :::{.info-card}
 ### Hantavirus
 
