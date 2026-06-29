@@ -5,17 +5,18 @@ format:
     page-layout: full
 ---
 
-# Evidence Database
 
-This table is generated from `data/references.csv`.
+## Evidence database
+
+This page displays a searchable and filterable evidence table generated from `data/references.csv`.
+
+Use the filters below to narrow references by outbreak, study design, or year. The complete dataset can also be downloaded as a CSV.
 
 ```{ojs}
 //| echo: false
 
 references = FileAttachment("data/references.csv").csv({typed: false})
 ```
-
-## Filter the evidence
 
 ```{ojs}
 //| echo: false
@@ -25,6 +26,8 @@ uniqueValues = (data, column) => [
   ...Array.from(new Set(data.map(d => d[column]).filter(d => d !== ""))).sort()
 ]
 ```
+
+## Filter the evidence
 
 ```{ojs}
 //| echo: false
@@ -69,7 +72,7 @@ filtered_references = references.filter(d =>
 //| echo: false
 
 Inputs.table(filtered_references, {
-  columns: ["Title", "Authors", "Year", "Outbreak", "Study_Design", "Journal"],
+  columns: ["Title", "Authors", "Year", "Outbreak", "Study Design", "Journal"],
   sort: "Year",
   reverse: true
 })
@@ -78,3 +81,7 @@ Inputs.table(filtered_references, {
 <a href="data/references.csv" download="references.csv" class="btn btn-primary">
 Download CSV
 </a>
+
+::: {.status-box}
+**Note:** This table uses sample data for demonstration purposes. In a future workflow, the CSV would be replaced with an export from DistillerSR.
+:::

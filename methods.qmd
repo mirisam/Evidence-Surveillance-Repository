@@ -4,20 +4,55 @@ title: "Methods"
 
 # Methods
 
-## Current Workflow
+## Overview
 
-1. Search the literature
-2. Import references into DistillerSR
-3. Screen studies for relevance
-4. Classify evidence
-5. Export references as a CSV
-6. Upload the CSV to GitHub
-7. GitHub Pages automatically publishes the updated website
+This proof of concept demonstrates a lightweight workflow for publishing living evidence surveillance outputs using GitHub, GitHub Pages, Quarto, and a CSV export from DistillerSR.
 
-## Why GitHub?
+The goal is not to replace existing evidence management tools. Instead, the prototype evaluates whether evidence surveillance outputs can be made easier to access, search, download, and update.
 
-This prototype evaluates whether GitHub can serve as a centralized repository for evidence surveillance materials while minimizing maintenance requirements.
+## Proposed evidence surveillance workflow
+
+1. Search the literature using relevant databases and grey literature sources.
+2. Import retrieved records into RefWorks.
+3. Screen and classify studies in DistillerSR.
+4. Export reference data from DistillerSR as a CSV.
+5. Replace the existing CSV file in the GitHub repository.
+6. Commit and push the updated file.
+7. GitHub Pages automatically rebuilds and republishes the website.
+
+## Maintenance model
+
+The intended maintenance process is designed to be simple:
+
+::: {.workflow-box}
+Replace CSV → Commit change → Push to GitHub → Website updates automatically
+:::
+
+This avoids the need for a custom database, web application, or server maintenance.
+
+## Evaluation questions
+
+This prototype is intended to assess:
+
+- whether GitHub can serve as a centralized repository for evidence surveillance materials;
+- whether GitHub Pages can provide a usable public-facing interface;
+- whether CSV-based updates are realistic for frequent outbreak surveillance;
+- whether the approach improves transparency, version control, and accessibility;
+- whether the structure could scale across multiple outbreaks.
+
+## Out of scope
+
+This proof of concept does not include:
+
+- replacement of DistillerSR;
+- hosting full-text articles or copyrighted material;
+- automated database searching;
+- user authentication;
+- a custom backend database;
+- production-level governance review.
 
 ## Status
 
-This website is a proof of concept and is not intended for production use.
+::: {.status-box}
+This website is a proof of concept and should be interpreted as a demonstration of workflow feasibility, not as an official evidence repository.
+:::

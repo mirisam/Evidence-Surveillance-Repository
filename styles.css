@@ -1,1 +1,129 @@
-/* css styles */
+/* General page styling */
+
+body {
+  color: #26374a;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #26374a;
+  font-weight: 700;
+}
+
+a {
+  color: #284162;
+}
+
+a:hover {
+  color: #1d2f46;
+}
+
+/* Main content width */
+
+.quarto-title-block,
+.content {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Government-style hero section */
+
+.hero-banner {
+  background: #f3f5f7;
+  border-left: 8px solid #26374a;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.prototype-badge {
+  display: inline-block;
+  background: #d7e5f5;
+  color: #26374a;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.04rem;
+}
+
+.hero-title {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  max-width: 800px;
+}
+
+/* Cards */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.info-card {
+  border: 1px solid #d6d9dc;
+  border-radius: 4px;
+  padding: 1.25rem;
+  background: #ffffff;
+}
+
+.info-card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+/* Status box */
+
+.status-box {
+  border: 1px solid #d6d9dc;
+  background: #f8f9fa;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+/* Workflow */
+
+.workflow-box {
+  background: #f3f5f7;
+  border: 1px solid #d6d9dc;
+  padding: 1.25rem;
+  border-radius: 4px;
+  font-family: monospace;
+  overflow-x: auto;
+}
+
+/* Buttons */
+
+.btn-primary {
+  background-color: #26374a;
+  border-color: #26374a;
+}
+
+.btn-primary:hover {
+  background-color: #1d2f46;
+  border-color: #1d2f46;
+}
+
+/* Tables */
+
+table {
+  font-size: 0.95rem;
+}
+
+/* Footer */
+
+.nav-footer {
+  border-top: 1px solid #d6d9dc;
+  margin-top: 3rem;
+}

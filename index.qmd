@@ -1,7 +1,61 @@
 ---
-title: "cd evidence-surveillance-site"
+title: "Home"
 ---
 
-This is a Quarto website.
+::: {.hero-banner}
+<span class="prototype-badge">Proof of Concept</span>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<div class="hero-title">Evidence Surveillance Hub</div>
+
+<div class="hero-subtitle">
+A prototype demonstrating how living evidence surveillance outputs can be published through a searchable, downloadable, and version-controlled platform.
+</div>
+:::
+
+## Purpose
+
+The Evidence Surveillance Hub explores a simple and sustainable approach for sharing rapidly updated outbreak literature.
+
+This prototype tests whether a GitHub repository and GitHub Pages website can provide a more accessible alternative to maintaining public evidence surveillance outputs through a spreadsheet alone.
+
+::: {.card-grid}
+
+::: {.info-card}
+### Searchable evidence
+
+Users can browse and filter references by outbreak, study design, and year.
+:::
+
+::: {.info-card}
+### Downloadable data
+
+The underlying dataset can be downloaded as a CSV for reuse by researchers and public health professionals.
+:::
+
+::: {.info-card}
+### Version history
+
+GitHub tracks changes over time, supporting transparency and reproducibility.
+:::
+
+::: {.info-card}
+### Low maintenance
+
+Routine updates are designed around replacing a CSV export from DistillerSR.
+:::
+
+:::
+
+## Proposed workflow
+
+::: {.workflow-box}
+Literature search → RefWorks → DistillerSR → CSV export → GitHub repository → GitHub Pages
+:::
+
+## Prototype scope
+
+This proof of concept uses a sample outbreak dataset to evaluate whether this approach is technically feasible, easy to maintain, and suitable for future evidence surveillance outputs.
+
+::: {.status-box}
+**Status:** Prototype under development. This website is not intended to represent a production repository or official evidence product.
+:::

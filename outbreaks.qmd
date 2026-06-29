@@ -1,0 +1,19 @@
+---
+title: "Outbreaks"
+---
+
+# Outbreaks
+
+Select an outbreak below to view the latest evidence surveillance table, download the dataset, and review outbreak-specific outputs.
+
+::: {.card-grid}
+
+::: {.info-card}
+### Mpox
+
+Evidence surveillance table for mpox literature.
+
+[View evidence table](outbreaks/mpox/)
+:::
+
+:::

@@ -1,0 +1,64 @@
+---
+title: "Mpox"
+format:
+  html:
+    page-layout: full
+---
+
+# Mpox Evidence Surveillance
+
+This page displays the current evidence surveillance table for this outbreak.
+
+The table is generated from the CSV file stored in this outbreak folder:
+
+`outbreaks/mpox/data/references.csv`
+
+```{ojs}
+//| echo: false
+
+references = FileAttachment("data/references.csv").csv({typed: false})
+```
+
+```{ojs}
+//| echo: false
+
+columns = references.length > 0 ? Object.keys(references[0]) : []
+```
+
+```{ojs}
+//| echo: false
+
+html`<div class="status-box">
+<strong>${references.length}</strong> records loaded from the current CSV file.<br>
+<strong>${columns.length}</strong> columns detected in this dataset.
+</div>`
+```
+
+## Search the evidence
+
+Use the search box below to search across all fields in the dataset.
+
+```{ojs}
+//| echo: false
+
+viewof searched_references = Inputs.search(
+  references,
+  {placeholder: "Search all fields..."}
+)
+```
+
+## Browse table
+
+```{ojs}
+//| echo: false
+
+Inputs.table(searched_references)
+```
+
+<a href="data/references.csv" download="mpox-references.csv" class="btn btn-primary">
+Download CSV
+</a>
+
+::: {.status-box}
+**Note:** This outbreak page uses a generic CSV viewer. Columns may differ across outbreaks depending on the evidence surveillance output.
+:::

@@ -3,21 +3,30 @@ project:
 
 website:
   title: "Evidence Surveillance Hub"
+  search: true
 
   navbar:
+    background: "#26374a"
+    foreground: "white"
     left:
       - href: index.qmd
         text: Home
-      - href: references.qmd
-        text: References
+      - href: outbreaks.qmd
+        text: Outbreaks
       - href: methods.qmd
         text: Methods
+      - href: update-guide.qmd
+        text: Update Guide
       - href: about.qmd
         text: About
+
+  page-footer:
+    left: "Evidence Surveillance Hub — Proof of Concept"
+    right: "Generated with Quarto and GitHub Pages"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
-    
+    page-layout: full
