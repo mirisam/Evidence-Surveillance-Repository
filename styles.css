@@ -184,3 +184,26 @@ table {
 .hero-text {
   flex: 1;
 }
+/* Evidence table styling */
+
+.observablehq table th {
+  background-color: #26374a !important;
+  color: white !important;
+  font-weight: 700;
+  border-bottom: 2px solid #1d2f46;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.observablehq table td {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.observablehq table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.observablehq table tbody tr:hover {
+  background-color: #eef3f8;
+}
