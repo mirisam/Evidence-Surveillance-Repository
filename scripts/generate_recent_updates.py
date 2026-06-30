@@ -60,12 +60,11 @@ with OUTPUT_FILE.open("w", encoding="utf-8") as f:
     else:
         f.write("::: {.card-grid}\n\n")
 
-        for update in updates:
-            f.write("::: {.info-card}\n")
-            f.write(f"### {update['title']}\n\n")
-            f.write(f"**Updated:** {update['date']}\n\n")
-            f.write(f"{update['message']}\n\n")
-            f.write(f"[View evidence table](outbreaks/{update['slug']}/)\n")
-            f.write(":::\n\n")
+      for update in updates:
+    f.write("::: {.info-card}\n")
+    f.write(f"### {update['title']}\n\n")
+    f.write(f"**Updated:** {update['date']}\n\n")
+    f.write(f"[View evidence table](outbreaks/{update['slug']}/)\n")
+    f.write(":::\n\n")
 
         f.write(":::\n")
