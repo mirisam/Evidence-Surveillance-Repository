@@ -37,14 +37,12 @@ for csv_file in OUTBREAKS_DIR.glob("*/data/references.csv"):
     rel_path = csv_file.relative_to(ROOT).as_posix()
 
     date = git_output(["log", "-1", "--format=%cs", "--", rel_path])
-    message = git_output(["log", "-1", "--format=%s", "--", rel_path])
 
     if date:
         updates.append({
             "date": date,
             "title": get_title(slug),
-            "slug": slug,
-            "message": message or "Evidence dataset updated."
+            "slug": slug
         })
 
 
@@ -60,11 +58,11 @@ with OUTPUT_FILE.open("w", encoding="utf-8") as f:
     else:
         f.write("::: {.card-grid}\n\n")
 
-for update in updates:
-    f.write("::: {.info-card}\n")
-    f.write(f"### {update['title']}\n\n")
-    f.write(f"**Updated:** {update['date']}\n\n")
-    f.write(f"[View evidence table](outbreaks/{update['slug']}/)\n")
-    f.write(":::\n\n")
+        for update in updates:
+            f.write("::: {.info-card}\n")
+            f.write(f"### {update['title']}\n\n")
+            f.write(f"**Updated:** {update['date']}\n\n")
+            f.write(f"[View evidence table](outbreaks/{update['slug']}/)\n")
+            f.write(":::\n\n")
 
-f.write(":::\n")
+        f.write(":::\n")
