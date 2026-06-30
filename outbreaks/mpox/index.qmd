@@ -1,11 +1,9 @@
 ---
-title: "Mpox"
+title: "Mpox Evidence Surveillance"
 format:
   html:
     page-layout: full
 ---
-
-# Mpox Evidence Surveillance
 
 This page displays the current evidence surveillance table for mpox.
 
