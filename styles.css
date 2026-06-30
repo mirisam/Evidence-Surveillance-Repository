@@ -169,3 +169,8 @@ table {
 .observablehq table td:first-child {
   display: none;
 }
+
+.highlight-text {
+  color: #da6f72;
+  font-weight: 700;
+}
