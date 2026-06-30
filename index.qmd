@@ -16,7 +16,7 @@ A prototype demonstrating how living evidence surveillance outputs can be publis
 
 The Evidence Surveillance Hub provides a simple and sustainable approach for sharing rapidly updated outbreak literature.
 
-[This prototype tests whether a GitHub repository and GitHub Pages website can provide a more accessible alternative to maintaining public evidence surveillance outputs through a spreadsheet alone.] {.highlight-text}
+[This prototype tests whether a GitHub repository and GitHub Pages website can provide a more accessible alternative to maintaining public evidence surveillance outputs through a spreadsheet alone.]{.highlight-text}
 
 ::: {.card-grid}
 
