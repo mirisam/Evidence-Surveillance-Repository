@@ -207,3 +207,35 @@ table {
 .observablehq table tbody tr:hover {
   background-color: #eef3f8;
 }
+/* Compact collapsible filter panel */
+
+.filter-panel {
+  border: 1px solid #d6d9dc;
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.filter-panel summary {
+  cursor: pointer;
+  color: #26374a;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.filter-panel .observablehq form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem 1rem;
+  margin-top: 1rem;
+}
+
+.filter-panel .observablehq form label {
+  font-weight: 600;
+  color: #26374a;
+}
+
+.filter-panel .observablehq form select {
+  width: 100%;
+}
