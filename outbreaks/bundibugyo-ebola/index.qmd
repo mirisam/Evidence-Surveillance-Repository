@@ -62,7 +62,8 @@ viewof searched_references = Inputs.search(
 )
 
 ```
-## Filter the evidence
+<details class="filter-panel">
+<summary><strong>Filter the evidence</strong></summary>
 
 ```{ojs}
 //| echo: false
@@ -111,6 +112,8 @@ viewof selectedFilters = Inputs.form(
   )
 )
 ```
+
+</details>
 
 ```{ojs}
 //| echo: false
