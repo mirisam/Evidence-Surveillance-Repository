@@ -239,29 +239,3 @@ table {
 .filter-panel .observablehq form select {
   width: 100%;
 }
-/* Make evidence tables more compact and full-width */
-
-.quarto-container,
-.page-columns,
-.content,
-main.content {
-  max-width: 98vw !important;
-  width: 98vw !important;
-}
-
-.observablehq table {
-  width: 100% !important;
-  font-size: 0.8rem;
-  table-layout: auto;
-}
-
-.observablehq th,
-.observablehq td {
-  padding: 0.35rem !important;
-  white-space: normal !important;
-  overflow-wrap: anywhere;
-  word-break: normal;
-  vertical-align: top;
-  min-width: 100px;
-  max-width: 220px;
-}
