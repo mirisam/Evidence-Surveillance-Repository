@@ -239,7 +239,15 @@ table {
 .filter-panel .observablehq form select {
   width: 100%;
 }
-/* More compact evidence tables */
+/* Make evidence tables more compact and full-width */
+
+.quarto-container,
+.page-columns,
+.content,
+main.content {
+  max-width: 98vw !important;
+  width: 98vw !important;
+}
 
 .observablehq table {
   width: 100% !important;
@@ -251,9 +259,9 @@ table {
 .observablehq td {
   padding: 0.35rem !important;
   white-space: normal !important;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
   word-break: normal;
   vertical-align: top;
   min-width: 100px;
-  max-width: 240px;
+  max-width: 220px;
 }
