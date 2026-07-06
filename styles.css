@@ -239,3 +239,11 @@ table {
 .filter-panel .observablehq form select {
   width: 100%;
 }
+/* Download buttons */
+
+.download-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
