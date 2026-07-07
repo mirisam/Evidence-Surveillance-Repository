@@ -143,15 +143,119 @@ format:
 </div>
 
 
-**Old World vs. New World Hantaviruses (with reservoirs and hotspots)
+## Old World vs New World Hantaviruses
 
 <div class="hanta-table-wrapper">
 
-<table class="hanta-table">
+<table class="hanta-table comparison-table">
   <thead>
+    <tr class="comparison-title">
+      <th colspan="4">Old World vs New World Hantaviruses (with reservoirs & hotspots)</th>
+    </tr>
     <tr>
-      <th>Virus</th>
-      <th>Geographic region</th>
-      <th>Human disease</th>
+      <th>Feature</th>
+      <th>Old World hantaviruses</th>
+      <th>New World hantaviruses</th>
+      <th>Reservoirs & geographic hotspots</th>
     </tr>
   </thead>
+
+  <tbody>
+    <tr>
+      <td><strong>Geographic distribution</strong></td>
+      <td>Europe and Asia</td>
+      <td>North, Central, South America</td>
+      <td>Old World: Eurasia; New World: Americas</td>
+    </tr>
+
+    <tr>
+      <td><strong>Main clinical syndrome</strong></td>
+      <td>HFRS (Hemorrhagic Fever with Renal Syndrome)</td>
+      <td>HCPS/HPS (Hantavirus Cardiopulmonary/Pulmonary Syndrome)</td>
+      <td>—</td>
+    </tr>
+
+    <tr>
+      <td><strong>Primary organs affected</strong></td>
+      <td>Kidneys, vascular system</td>
+      <td>Lungs and heart</td>
+      <td>—</td>
+    </tr>
+
+    <tr>
+      <td><strong>Case fatality rate</strong></td>
+      <td>~&lt;1% to ~15%</td>
+      <td>Up to ~40–50%</td>
+      <td>—</td>
+    </tr>
+
+    <tr>
+      <td><strong>Geographic burden</strong></td>
+      <td>~10,000–100,000 cases/year globally</td>
+      <td>Much rarer (hundreds–thousands reported)</td>
+      <td>—</td>
+    </tr>
+
+    <tr>
+      <td><strong>Most important viruses</strong></td>
+      <td>Hantaan (severe), Puumala (mild), Seoul (moderate)</td>
+      <td>Sin Nombre (North America), Andes (South America)</td>
+      <td>—</td>
+    </tr>
+
+    <tr>
+      <td><strong>Rodent reservoir types</strong></td>
+      <td>Murinae rodents (rats, Old World mice, voles)</td>
+      <td>Sigmodontine rodents (New World mice/rats)</td>
+      <td>Each virus linked to a specific rodent host</td>
+    </tr>
+
+    <tr>
+      <td><strong>Typical reservoirs (examples)</strong></td>
+      <td>
+        - Hantaan → striped field mouse<br>
+        - Puumala → bank vole<br>
+        - Seoul → Norway rat
+      </td>
+      <td>
+        - Sin Nombre → deer mouse<br>
+        - Andes → long-tailed pygmy rice rat<br>
+        - Bayou → rice rat
+      </td>
+      <td>Strong virus–host specificity</td>
+    </tr>
+
+    <tr>
+      <td><strong>Hotspot regions</strong></td>
+      <td>
+        - China, Korea (Hantaan)<br>
+        - Northern Europe (Puumala)<br>
+        - Balkans (Dobrava)<br>
+        - Worldwide urban (Seoul)
+      </td>
+      <td>
+        - U.S. Southwest & Canada (Sin Nombre)<br>
+        - Southern South America (Andes)<br>
+        - Brazil, Argentina, Paraguay (multiple species)<br>
+        - Panama (Choclo)
+      </td>
+      <td>Geographic range mirrors rodent distribution</td>
+    </tr>
+
+    <tr>
+      <td><strong>Human-to-human transmission</strong></td>
+      <td>None documented</td>
+      <td>Rare (Andes virus only)</td>
+      <td>Occurs mainly in Argentina/Chile</td>
+    </tr>
+
+    <tr>
+      <td><strong>Typical exposure setting</strong></td>
+      <td>Rural/farming, forest exposure, rodent-infested buildings</td>
+      <td>Rural, peridomestic, occupational exposure</td>
+      <td>Aerosolized rodent excreta is main route</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
