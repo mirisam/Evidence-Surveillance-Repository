@@ -19,13 +19,21 @@ The search was eveloped by the Health Canada library to capture all new world ha
 
 Example search without the date limit: 
 ```text
-- Example search without the date limit:  (TITLE_ABS:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR BODY:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR KEYWORD:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) ))) 
+(TITLE_ABS:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR BODY:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR KEYWORD:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) ))) 
 ```
 
 A grey literature search has also been developed to identify new guidelines, evidence syntheses, risk assessments and other publications mainly from governments and international organizations:
-CDC, ECDC, WHO, UKHSA, PHAC, PAHO, and others as they are identified by a daily google search Hantavirus OR "Andes Virus" OR "Andes orthohantavirus" to identify additional publications omitted by the search
+CDC, ECDC, WHO, UKHSA, PHAC, PAHO, and others as they are identified by a daily google search Hantavirus OR "Andes Virus" OR "Andes orthohantavirus" to identify additional publications omitted by the search. 
 
-The table is generated from the CSV file stored in this outbreak folder:
+## Screening
+
+- All steps of screening are conducted by one reviewer and randomly checked by a senior reviewer
+- All citations from the search are screened for relevance to hantavirus 
+- All hantavirus full texts are screened for hantavirus strains covered in the paper. New World Hantaviruses are screened through for further characterization.
+
+Characteristics of the publication are captured: language of the article, primary research or type of non-primary research, and publication status (published, pre-print, report)
+
+**The table below is generated from the CSV file stored in this outbreak folder:**
 
 `outbreaks/hantavirus/data/references.csv`
 
