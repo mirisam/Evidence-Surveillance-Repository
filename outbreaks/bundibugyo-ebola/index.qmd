@@ -29,12 +29,12 @@ CDC, ECDC, WHO, UKHSA, PHAC, PAHO, and others as they are identified by a daily 
 
 - All steps of screening are conducted by one reviewer and randomly checked by a senior reviewer
 - All citations from the search are screened for relevance to hantavirus 
-- All ebolavirus full texts are screened for ebola virus strain covered in the paper. Bundibugyo ebolavirus and the current outbreak research are screened through for [further characterization].(https://drive.google.com/file/d/1L2zUU8NAKgkD-jkk1Carkbol3w6TlcNo/view?usp=sharing)
+- All ebolavirus full texts are screened for ebola virus strain covered in the paper. Bundibugyo ebolavirus and the current outbreak research are screened through for [further characterization.](https://drive.google.com/file/d/1L2zUU8NAKgkD-jkk1Carkbol3w6TlcNo/view?usp=sharing)
 
 Characteristics of the publication are captured: language of the article, primary research or type of non-primary research, and publication status (published, pre-print, report)
 
 
-**The table below is generated from the CSV file stored in this outbreak folder:*
+**The table below is generated from the CSV file stored in this outbreak folder:**
 
 `outbreaks/bundibugyo-ebola/data/references.csv`
 
