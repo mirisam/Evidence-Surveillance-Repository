@@ -24,7 +24,8 @@ Example search:
 
 A grey literature search has also been developed to identify new guidelines, evidence syntheses, risk assessments and other publications mainly from governments and international organizations:
 CDC, ECDC, WHO, UKHSA, PHAC, PAHO, and others as they are identified by a daily Google search "Bundibugyo virus" OR "Bundibugyo Ebola" OR "BDBV" to identify additional publications omitted by the search.
-The table is generated from the CSV file stored in this outbreak folder:
+
+The table below is generated from the CSV file stored in this outbreak folder:
 
 `outbreaks/bundibugyo-ebola/data/references.csv`
 
