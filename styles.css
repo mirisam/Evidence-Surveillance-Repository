@@ -12,12 +12,16 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+/* Hyperlink styling */
+
 a {
-  color: #284162;
+  color: #0066CC;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #1d2f46;
+  color: #3268CD;
+  text-decoration: underline;
 }
 
 /* Main content width */
