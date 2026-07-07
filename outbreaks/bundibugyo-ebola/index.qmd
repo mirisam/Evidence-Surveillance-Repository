@@ -35,10 +35,15 @@ Characteristics of the publication are captured: language of the article, primar
 
 ## Evidence Map
 - Identifies papers related to the 2026 outbreak associated with the bundibugyo ebolavirus
+- Identifies the samples/subjects in the study: humans, animals, in vitro or in silico AND within humans identifies high risk populations (children <18, elderly >65, pregnant persons, immunocompromised, indigenous, ethnic minorities, healthcare workers and other options).
+- The mode of transmission is captured if reported / relevant to the paper
+- The high level foci of the paper is captured as: Epidemiological parameters,  Clinical Data,  Treatment /Prophylaxis,  Immunity,  Other vaccine studies,  Diagnostic / Detection test performance,  Interventions (PHM and IPC),  Genomics and structural characterization,  Knowledge, attitudes and behaviour,  Other epidemiology (e.g. emergence and spread), Indirect impacts of the disease 
 
 **The table below is generated from the CSV file stored in this outbreak folder:**
 
 `outbreaks/bundibugyo-ebola/data/references.csv`
+
+**Note:** the literature list includes all ebola research identified, however only bundibugyo literature is fully characterized.
 
 ```{ojs}
 //| echo: false
