@@ -267,3 +267,51 @@ table {
 .section-divider td {
   border-bottom: 3px solid #26374a !important;
 }
+/* Hantavirus comparison table */
+
+.hanta-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.hanta-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background: white;
+}
+
+.hanta-table th,
+.hanta-table td {
+  border: 1px solid #d6d9dc;
+  padding: 0.65rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.comparison-title th {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: 700;
+  text-align: left;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.comparison-table thead tr:nth-child(2) th {
+  background-color: #fce5cd !important;
+  color: #000000 !important;
+  font-weight: 700;
+  text-align: center;
+}
+
+.comparison-table td:first-child {
+  background-color: #fce5cd;
+  font-weight: 700;
+  width: 22%;
+}
+
+.comparison-table td {
+  line-height: 1.4;
+}
