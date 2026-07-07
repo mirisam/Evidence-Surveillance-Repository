@@ -19,7 +19,7 @@ format:
   </thead>
 
   <tbody>
-    <tr class="highlight-row">
+    <tr class="row-green">
       <td colspan="3"><strong>NEW WORLD HANTAVIRUSES (Americas) causing Cardiopulmonary or pulmonary syndrome (HCPS/HPS)</strong></td>
     </tr>
     <tr>
