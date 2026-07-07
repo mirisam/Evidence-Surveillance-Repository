@@ -33,6 +33,8 @@ CDC, ECDC, WHO, UKHSA, PHAC, PAHO, and others as they are identified by a daily 
 
 Characteristics of the publication are captured: language of the article, primary research or type of non-primary research, and publication status (published, pre-print, report)
 
+## Evidence Map
+- Identifies papers related to the 2026 outbreak associated with the bundibugyo ebolavirus
 
 **The table below is generated from the CSV file stored in this outbreak folder:**
 
