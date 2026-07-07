@@ -315,3 +315,8 @@ table {
 .comparison-table td {
   line-height: 1.4;
 }
+
+.comparison-table ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
