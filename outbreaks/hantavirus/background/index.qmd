@@ -5,113 +5,145 @@ format:
     page-layout: full
 ---
 
-This evidence surveillance for New World Hantavirus literature covers publications from January 1, 2026 to June 24, 2026.
+## Hantavirus background table
 
-Evidence surveillance is a systematic approach to the identifciation and charactarization of the literature on a topic on a continuous cycle following the principles of evidence synthesis research. This evidence surveillance is collecting reserach are new world hantaviruses with a particular focus on Andes virus and the outbreak associated with the MV Hondius cruise ship outbreak. 
+<div class="hanta-table-wrapper">
 
-For further information on our approach to evidence surveillance please see [Corrin et al. (2023) CCDR](https://doi.org/10.14745/ccdr.v49i01a02)   
+<table class="hanta-table">
+  <thead>
+    <tr>
+      <th>Virus</th>
+      <th>Geographic region</th>
+      <th>Human disease</th>
+    </tr>
+  </thead>
 
-**Contact email**: evidence.synthesis-synthese.de.donnees.probantes@phac-aspc.gc.ca.  
+  <tbody>
+    <tr class="section-new">
+      <td colspan="3"><strong>NEW WORLD HANTAVIRUSES (Americas) causing Cardiopulmonary or pulmonary syndrome (HCPS/HPS)</strong></td>
+    </tr>
+    <tr>
+      <td>Sin Nombre virus (SNV) – main cause in U.S./Canada</td>
+      <td>North America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Black Creek Canal virus</td>
+      <td>North America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Bayou virus</td>
+      <td>North America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Monongahela virus</td>
+      <td>North America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Andes virus (ANDV) – main cause / notable for limited human-to-human transmission</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Araraquara virus</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Laguna Negra virus</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Juquitiba virus</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Bermejo virus</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Lechiguanas virus</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Maciel virus</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Orán virus</td>
+      <td>South America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Choclo virus</td>
+      <td>Central America</td>
+      <td>HCPS</td>
+    </tr>
+    <tr>
+      <td>Tula virus (TULV)</td>
+      <td>Europe/Asia</td>
+      <td>Usually mild or subclinical infections</td>
+    </tr>
+    <tr>
+      <td>New York virus</td>
+      <td>North America</td>
+      <td>Associated with HPS in northeastern U.S.</td>
+    </tr>
 
-## Search strategy
+    <tr class="note-row">
+      <td colspan="3">
+        <strong>Definition:</strong> Cardiopulmonary syndrome affects the lungs, including pulmonary edema, and often the heart/circulation, including cardiovascular collapse. HPS is less commonly used, but appears in the literature and is generally considered analogous to HCPS.
+      </td>
+    </tr>
 
-The search was eveloped by the Health Canada library to capture all new world hantavirus research and related disease in humans, Hantavirus cardiopulmonary syndrome (HCPS) or Hantavirus Pulmonary syndrome (HPS). It was implemented in Embase, Medline, Global Health, Scopus, EuropePMC (to capture preprints) and was run 2x per week to capture new publications:  
+    <tr class="section-old">
+      <td colspan="3"><strong>OLD WORLD HANTAVIRUSES (Europe/Asia) causing Hemorrhagic Fever with Renal Syndrome (HFRS)</strong></td>
+    </tr>
+    <tr>
+      <td>Hantaan virus (HTNV)</td>
+      <td>East Asia (China, Korea)</td>
+      <td>Severe HFRS</td>
+    </tr>
+    <tr>
+      <td>Dobrava-Belgrade virus (DOBV)</td>
+      <td>Balkans / Eastern Europe</td>
+      <td>Severe HFRS</td>
+    </tr>
+    <tr>
+      <td>Seoul virus (SEOV)</td>
+      <td>Worldwide (rats)</td>
+      <td>Moderate HFRS</td>
+    </tr>
+    <tr>
+      <td>Puumala virus (PUUV)</td>
+      <td>Northern Europe</td>
+      <td>Mild HFRS / nephropathia epidemica</td>
+    </tr>
+    <tr>
+      <td>Saaremaa virus</td>
+      <td>Europe</td>
+      <td>Mild HFRS</td>
+    </tr>
+    <tr>
+      <td>Amur virus</td>
+      <td>Asia</td>
+      <td>HFRS</td>
+    </tr>
 
-Example search without the date limit: 
-```text
-(TITLE_ABS:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR BODY:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR KEYWORD:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) ))) 
-```
+    <tr class="note-row">
+      <td colspan="3">
+        <strong>Definition:</strong> Hemorrhagic fever refers to bleeding tendencies due to vascular damage. Renal syndrome refers to kidney involvement, often leading to acute kidney injury.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-A grey literature search has also been developed to identify new guidelines, evidence syntheses, risk assessments and other publications mainly from governments and international organizations:
-CDC, ECDC, WHO, UKHSA, PHAC, PAHO, and others as they are identified by a daily google search Hantavirus OR "Andes Virus" OR "Andes orthohantavirus" to identify additional publications omitted by the search. 
-
-## Screening
-
-- All steps of screening are conducted by one reviewer and randomly checked by a senior reviewer
-- All citations from the search are screened for relevance to hantavirus 
-- All hantavirus full texts are screened for hantavirus strains covered in the paper. New World Hantaviruses are screened through for further characterization.
-
-Characteristics of the publication are captured: language of the article, primary research or type of non-primary research, and publication status (published, pre-print, report)
-
-**Evidence Map**
-
-- Identifies papers related to the 2026 outbreak associated with the Hondius cruiseship (Y/N)
-- Identifies the samples/subjects in the study: humans, animals, in vitro or in silico AND within humans identifies high risk populations (children <18, elderly >65, pregnant persons, immunocompromised, indigenous, ethnic minorities, healthcare workers and other options).
-- The mode of transmission is captured if reported / relevant to the paper
-- The high level foci of the paper is captured: Epidemiological parameters,  Clinical Data,  Treatment /Prophylaxis,  Immunity,  Other vaccine studies,  Diagnostic / Detection test performance,  Interventions (PHM and IPC),  Genomics and structural characterization,  Knowledge, attitudes and behaviour,  Other epidemiology (e.g. emergence and spread), Indirect impacts of the disease "
-
-
-**The table below is generated from the CSV file stored in this outbreak folder:**
-
-`outbreaks/hantavirus/data/references.csv`
-
-```{ojs}
-//| echo: false
-
-rawReferences = FileAttachment("data/references.csv").csv({typed: false})
-```
-
-```{ojs}
-//| echo: false
-
-visibleColumns = rawReferences.length > 0
-  ? Object.keys(rawReferences[0]).filter(c =>
-      c &&
-      c.trim() !== "" &&
-      !c.startsWith("__") &&
-      !c.toLowerCase().startsWith("unnamed")
-    )
-  : []
-```
-
-```{ojs}
-//| echo: false
-
-references = rawReferences.map(row =>
-  Object.fromEntries(
-    visibleColumns.map(column => [column, row[column]])
-  )
-)
-```
-
-```{ojs}
-//| echo: false
-
-html`<div class="status-box">
-<strong>${references.length}</strong> records loaded from the current CSV file.<br>
-<strong>${visibleColumns.length}</strong> columns detected in this dataset.
-</div>`
-```
-
-## Search the evidence
-
-Use the search box below to search across all fields in the dataset.
-
-```{ojs}
-//| echo: false
-
-viewof searched_references = Inputs.search(
-  references,
-  {placeholder: "Search all fields..."}
-)
-```
-
-## Browse table
-
-```{ojs}
-//| echo: false
-
-Inputs.table(searched_references, {
-  columns: visibleColumns,
-  height: 700,
-  select: false
-})
-```
-
-<a href="data/references.csv" download="hantavirus-references.csv" class="btn btn-primary">
-Download CSV
-</a>
-
-::: {.status-box}
-**Note:** This outbreak page uses a generic CSV viewer. Columns may differ across outbreaks depending on the evidence surveillance output.
-:::
+</div>
