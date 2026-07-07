@@ -1,11 +1,29 @@
 ---
-title: "Live: Andes Hantavirus Evidence Surveillance"
+title: "Andes Hantavirus Evidence Surveillance"
 format:
   html:
     page-layout: full
 ---
 
-This page displays the current evidence surveillance table for this outbreak.
+This evidence surveillance for New World Hantavirus literature covers publications from January 1, 2026 to June 24, 2026.
+
+Evidence surveillance is a systematic approach to the identifciation and charactarization of the literature on a topic on a continuous cycle following the principles of evidence synthesis research. This evidence surveillance is collecting reserach are new world hantaviruses with a particular focus on Andes virus and the outbreak associated with the MV Hondius cruise ship outbreak. 
+
+For further information on our approach to evidence surveillance please see [Corrin et al. (2023) CCDR](https://doi.org/10.14745/ccdr.v49i01a02)   
+
+**Contact email**: evidence.synthesis-synthese.de.donnees.probantes@phac-aspc.gc.ca.  
+
+## Search strategy
+
+The search was eveloped by the Health Canada library to capture all new world hantavirus research and related disease in humans, Hantavirus cardiopulmonary syndrome (HCPS) or Hantavirus Pulmonary syndrome (HPS). It was implemented in Embase, Medline, Global Health, Scopus, EuropePMC (to capture preprints) and was run 2x per week to capture new publications:  
+
+Example search without the date limit: 
+```text
+- Example search without the date limit:  (TITLE_ABS:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR BODY:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) )) OR KEYWORD:((( ANDV AND ( "cardiopulmonary syndrome" OR "pulmonary syndrome" OR HCPS OR HPS OR respirat* OR rodent* OR vector* OR "person-to-person" ) ) OR ( ( andes OR andesense OR ANDV ) AND ( virus* OR viridae* OR viral* OR viricete* OR hantavir* OR orthohantavir* ) ) OR ("andes virus" OR andesvirus*) OR ( hantavir* OR orthohantavir* OR "hanta virus" ) ))) 
+```
+
+A grey literature search has also been developed to identify new guidelines, evidence syntheses, risk assessments and other publications mainly from governments and international organizations:
+CDC, ECDC, WHO, UKHSA, PHAC, PAHO, and others as they are identified by a daily google search Hantavirus OR "Andes Virus" OR "Andes orthohantavirus" to identify additional publications omitted by the search
 
 The table is generated from the CSV file stored in this outbreak folder:
 
