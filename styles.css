@@ -246,3 +246,20 @@ table {
   flex-wrap: wrap;
   margin-top: 1rem;
 }
+/* Background Tables */
+
+.row-green td {
+  background-color: #d9ead3 !important;
+}
+
+.row-blue td {
+  background-color: #cfe2f3 !important;
+}
+
+.row-purple td {
+  background-color: #d9d2e9 !important;
+}
+
+.row-orange td {
+  background-color: #fce5cd !important;
+}
