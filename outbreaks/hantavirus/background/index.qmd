@@ -126,7 +126,7 @@ format:
       <td>Europe</td>
       <td>Mild HFRS</td>
     </tr>
-    <tr>
+    <tr class="section-divider">
       <td>Amur virus</td>
       <td>Asia</td>
       <td>HFRS</td>
