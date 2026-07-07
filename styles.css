@@ -263,3 +263,7 @@ table {
 .row-orange td {
   background-color: #fce5cd !important;
 }
+
+.section-divider td {
+  border-bottom: 3px solid #26374a !important;
+}
