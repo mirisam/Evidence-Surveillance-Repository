@@ -9,14 +9,6 @@ Each outbreak has its own folder, downloadable CSV and full dataset XLSX file. C
 ::: {.card-grid}
 
 ::: {.info-card}
-### Mpox
-
-Evidence surveillance data for mpox literature.
-
-[View evidence](outbreaks/mpox/)
-:::
-
-::: {.info-card}
 ### Hantavirus
 
 Evidence surveillance data for Hantavirus literature.
