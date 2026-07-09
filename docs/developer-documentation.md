@@ -1,4 +1,4 @@
-## Developer Documentation: Evidence Surveillance Hub Prototype
+## Developer Documentation: Evidence Surveillance Repository
 
 This repository contains a Quarto-based static website for publishing outbreak evidence surveillance outputs. The site is built with Quarto, hosted through GitHub Pages, and deployed automatically using GitHub Actions.
 
