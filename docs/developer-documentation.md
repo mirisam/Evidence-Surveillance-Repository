@@ -99,17 +99,7 @@ It includes:
 * A high-level workflow description
 * Links to key pages
 
-The “Recently Updated” section is generated automatically and included using:
-
-```markdown
-{{< include _recent-updates.md >}}
-```
-
-The included file is regenerated during deployment by:
-
-```text
-scripts/generate_recent_updates.py
-```
+The homepage includes the generated `_recent-updates.md` file using a Quarto include shortcode. This file is regenerated during deployment by `scripts/generate_recent_updates.py`.
 
 ---
 
