@@ -4,7 +4,7 @@ The Evidence Surveillance Hub is a Quarto-based prototype website for publishing
 
 ## Live Website
 
-[View the Evidence Surveillance Hub](https://mirisam.github.io/Evidence-Surveillance-Repository/)
+[View the Evidence Surveillance Repository Site\](https://mirisam.github.io/Evidence-Surveillance-Repository/)
 
 ## Repository Contents
 
