@@ -12,7 +12,8 @@ A live website demonstrating how living evidence surveillance outputs can be pub
 :::
 
 ::: {.status-box}
-**Status:** This website represents a repository Evidence Surveillance products created by the Evidence Synthesis team at the Public Health Agency of Canada. Should you need to get in touch with a member of our team regarding these products, please contact **evidence.synthesis-synthese.de.donnees.probantes@phac-aspc.gc.ca.**
+**Status:** This website represents a repository Evidence Surveillance products created by the Evidence Synthesis team at the Public Health Agency of Canada. Should you need to get in touch with a member of our team regarding these products, please contact:
+**evidence.synthesis-synthese.de.donnees.probantes@phac-aspc.gc.ca.**
 :::
 
 {{< include _recent-updates.md >}}
