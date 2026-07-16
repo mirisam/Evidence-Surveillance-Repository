@@ -26,6 +26,7 @@ Evidence surveillance data for Bundibugyo Ebolavirus literature.
 <a href="outbreaks/bundibugyo-ebola/background/" class="btn btn-primary">Background</a>
 
 <a href="outbreaks/bundibugyo-ebola/" class="btn btn-primary">View evidence</a>
+
 <a href="outbreaks/bundibugyo-ebola/transient-info" class="btn btn-primary">Transient Information</a>
 :::
 
