@@ -4,7 +4,7 @@
 ```{ojs}
 //| echo: false
 
-transientRaw = FileAttachment("data/bundibugyo transient info.csv").csv({typed: false})
+transientRaw = FileAttachment("data/bundibugyo-transient-info.csv").csv({typed: false})
 ```
 
 ```{ojs}
