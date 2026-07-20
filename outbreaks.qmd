@@ -16,6 +16,8 @@ Evidence surveillance data and background information for Hantavirus literature.
 <a href="outbreaks/hantavirus/background/" class="btn btn-primary">Background</a>
 
 <a href="outbreaks/hantavirus/" class="btn btn-primary">View evidence</a>
+
+<a href="outbreaks/hantavirus/transient-info" class="btn btn-primary">Transient Information</a>
 :::
 
 ::: {.info-card}
