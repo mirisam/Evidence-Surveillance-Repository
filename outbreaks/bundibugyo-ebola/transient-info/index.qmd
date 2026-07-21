@@ -135,5 +135,17 @@ Inputs.table(filtered_transient, {
   columns: transientColumns,
   height: 500,
   select: false
+  format: {
+    link: value => {
+      if (!value) return ""
+      
+      const url = String(value).trim()
+      const href = url.startsWith("http://") || url.startsWith("https://")
+        ? url
+        : `https://${url}`
+
+      return htl.html`<a href=${href} target="_blank" rel="noopener noreferrer">View link</a>`
+    }
+  }
 })
 ```
