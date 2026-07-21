@@ -135,6 +135,31 @@ html`<div class="status-box">
 </div>`
 ```
 
+```{ojs}
+//| echo: false
+
+linkFormatters = Object.fromEntries(
+  transientColumns
+    .filter(column =>
+      ["link", "url"].includes(column.trim().toLowerCase()) ||
+      column.trim().toLowerCase().includes("link")
+    )
+    .map(column => [
+      column,
+      value => {
+        if (!value) return ""
+
+        const url = String(value).trim()
+        const href = url.startsWith("http://") || url.startsWith("https://")
+          ? url
+          : `https://${url}`
+
+        return htl.html`<a href=${href} target="_blank" rel="noopener noreferrer">View link</a>`
+      }
+    ])
+)
+```
+
 ::: {.column-screen}
 
 ```{ojs}
@@ -142,7 +167,7 @@ html`<div class="status-box">
 
 Inputs.table(filtered_transient, {
   columns: transientColumns,
-  height: 700,
+  height: 750,
   select: false,
   format: linkFormatters
 })
