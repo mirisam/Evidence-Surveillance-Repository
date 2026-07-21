@@ -9,6 +9,12 @@ sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI1KuT8CTH-tfkSQDr8
 ```{ojs}
 //| echo: false
 
+transientRaw = d3.csv(sheetUrl)
+```
+
+```{ojs}
+//| echo: false
+
 transientColumns = transientRaw.length > 0
   ? Object.keys(transientRaw[0]).filter(c =>
       c &&
