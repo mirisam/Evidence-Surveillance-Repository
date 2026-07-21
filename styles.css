@@ -320,31 +320,22 @@ table {
   margin: 0;
   padding-left: 1.2rem;
 }
-/* Make Observable tables wider and easier to read */
+/* Wider and more readable Observable tables */
 
 .observablehq table {
-  width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
   font-size: 0.9rem;
 }
 
 .observablehq th,
 .observablehq td {
-  padding: 0.5rem !important;
+  padding: 0.55rem !important;
   white-space: normal !important;
-  overflow-wrap: break-word;
-  vertical-align: top;
-}
-/* Make Observable tables wider and easier to read */
-
-.observablehq table {
-  width: 100%;
-  font-size: 0.9rem;
+  overflow-wrap: break-word !important;
+  vertical-align: top !important;
 }
 
-.observablehq th,
-.observablehq td {
-  padding: 0.5rem !important;
-  white-space: normal !important;
-  overflow-wrap: break-word;
-  vertical-align: top;
+.observablehq {
+  max-width: 100% !important;
 }
