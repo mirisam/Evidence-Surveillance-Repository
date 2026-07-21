@@ -134,11 +134,11 @@ html`<div class="status-box">
 Inputs.table(filtered_transient, {
   columns: transientColumns,
   height: 500,
-  select: false
+  select: false,
   format: {
     link: value => {
       if (!value) return ""
-      
+
       const url = String(value).trim()
       const href = url.startsWith("http://") || url.startsWith("https://")
         ? url
