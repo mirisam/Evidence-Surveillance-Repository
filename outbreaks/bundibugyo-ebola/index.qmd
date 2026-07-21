@@ -48,7 +48,13 @@ Characteristics of the publication are captured: language of the article, primar
 ```{ojs}
 //| echo: false
 
-rawReferences = FileAttachment("data/references.csv").csv({typed: false})
+sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI1KuT8CTH-tfkSQDr8yidtYSrK9OutroKCmrP_qD2uCbMZLARuqHNJ0Ddepl4ZrwINvQGZe23uz9h/pub?gid=0&single=true&output=csv"
+```
+
+```{ojs}
+//| echo: false
+
+rawReferences = d3.csv(sheetUrl)
 ```
 
 ```{ojs}
