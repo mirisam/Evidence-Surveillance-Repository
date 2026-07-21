@@ -3,7 +3,7 @@
 ```{ojs}
 //| echo: false
 
-transientRaw = FileAttachment("../data/bundibugyo-transient-info.csv").csv({typed: false})
+sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI1KuT8CTH-tfkSQDr8yidtYSrK9OutroKCmrP_qD2uCbMZLARuqHNJ0Ddepl4ZrwINvQGZe23uz9h/pub?gid=1057181632&single=true&output=csv"
 ```
 
 ```{ojs}
