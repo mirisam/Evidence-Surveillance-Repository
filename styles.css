@@ -320,22 +320,3 @@ table {
   margin: 0;
   padding-left: 1.2rem;
 }
-/* Wider and more readable Observable tables */
-
-.observablehq table {
-  width: 100% !important;
-  max-width: 100% !important;
-  font-size: 0.9rem;
-}
-
-.observablehq th,
-.observablehq td {
-  padding: 0.55rem !important;
-  white-space: normal !important;
-  overflow-wrap: break-word !important;
-  vertical-align: top !important;
-}
-
-.observablehq {
-  max-width: 100% !important;
-}
