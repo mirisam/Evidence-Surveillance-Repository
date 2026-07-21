@@ -159,18 +159,3 @@ linkFormatters = Object.fromEntries(
     ])
 )
 ```
-
-::: {.column-screen}
-
-```{ojs}
-//| echo: false
-
-Inputs.table(filtered_transient, {
-  columns: transientColumns,
-  height: 750,
-  select: false,
-  format: linkFormatters
-})
-```
-
-:::
