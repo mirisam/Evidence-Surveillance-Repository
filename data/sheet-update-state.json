@@ -1,14 +1,14 @@
 {
   "bundibugyo-ebola": {
     "title": "Bundibugyo Ebolavirus Evidence Surveillance",
-    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI1KuT8CTH-tfkSQDr8yidtYSrK9OutroKCmrP_qD2uCbMZLARuqHNJ0Ddepl4ZrwINvQGZe23uz9h/pub?gid=0&single=true&output=csv",
-    "hash": "7cfb5b6b48bb2e4227a80c5ebc798803db3313b0b782716445dc7d370349e4a5",
+    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSh-4T4FIoGBl9bBTIimM4oPghqGgk_R2R2CXMh7AJviFHGQCyXO1u9kJJhSif8UIjqCf-CbmUEvgV_/pub?gid=1313338060&single=true&output=csv",
+    "hash": "b004ba497c24ad5366a925e08dc038dcefe09f91f5a636563138893a3ef7f4f1",
     "updated": "2026-07-23"
   },
   "bundibugyo-ebola/transient-info": {
     "title": "Bundibugyo Ebolavirus Transient Information",
-    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI1KuT8CTH-tfkSQDr8yidtYSrK9OutroKCmrP_qD2uCbMZLARuqHNJ0Ddepl4ZrwINvQGZe23uz9h/pub?gid=1057181632&single=true&output=csv",
-    "hash": "c0629592102612ebb9545f47449e5627913be96b356192690c6d4fc5b9ea326c",
+    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSh-4T4FIoGBl9bBTIimM4oPghqGgk_R2R2CXMh7AJviFHGQCyXO1u9kJJhSif8UIjqCf-CbmUEvgV_/pub?gid=2112786480&single=true&output=csv",
+    "hash": "8d5583157fd1799b0577df34f97d7056bf720d961b23b65ef2c6dbfdce662f45",
     "updated": "2026-07-23"
   }
 }
