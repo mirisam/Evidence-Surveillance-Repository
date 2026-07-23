@@ -203,6 +203,8 @@ Download full Excel dataset
 </a>
 </div>
 
+<a href="outbreaks/bundibugyo-ebola/full-dataset" class="btn btn-primary">View full dataset</a>
+
 ::: {.status-box}
 **Note:** This outbreak page uses a generic CSV viewer. Columns may differ across outbreaks depending on the evidence surveillance output.
 :::
