@@ -1,1 +1,14 @@
-{}
+{
+  "bundibugyo-ebola": {
+    "title": "Bundibugyo Ebolavirus Evidence Surveillance",
+    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI1KuT8CTH-tfkSQDr8yidtYSrK9OutroKCmrP_qD2uCbMZLARuqHNJ0Ddepl4ZrwINvQGZe23uz9h/pub?gid=0&single=true&output=csv",
+    "hash": "7cfb5b6b48bb2e4227a80c5ebc798803db3313b0b782716445dc7d370349e4a5",
+    "updated": "2026-07-23"
+  },
+  "bundibugyo-ebola/transient-info": {
+    "title": "Bundibugyo Ebolavirus Transient Information",
+    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRI1KuT8CTH-tfkSQDr8yidtYSrK9OutroKCmrP_qD2uCbMZLARuqHNJ0Ddepl4ZrwINvQGZe23uz9h/pub?gid=1057181632&single=true&output=csv",
+    "hash": "c0629592102612ebb9545f47449e5627913be96b356192690c6d4fc5b9ea326c",
+    "updated": "2026-07-23"
+  }
+}
